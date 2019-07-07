@@ -15,11 +15,13 @@ J = 0;
 
 h = X * theta;
 
-sum = 0;
-for i = 1:m,
-  tmp = (h(i) - y(i)) ^ 2;
-  sum = sum + tmp;
-endfor
+%sum = 0;
+%for i = 1:m,
+%  tmp = (h(i) - y(i)) ^ 2;
+%  sum = sum + tmp;
+%endfor
+
+sum = sum((h - y) .^2);
 
 J = 1 / (2 * m) * sum;
 
