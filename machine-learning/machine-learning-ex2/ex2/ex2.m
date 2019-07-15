@@ -46,7 +46,6 @@ legend('Admitted', 'Not admitted')
 hold off;
 
 fprintf('\nProgram paused. Press enter to continue.\n');
-pause;
 
 
 %% ============ Part 2: Compute Cost and Gradient ============
