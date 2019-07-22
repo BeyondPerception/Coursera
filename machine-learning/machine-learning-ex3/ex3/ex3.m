@@ -42,7 +42,6 @@ sel = X(rand_indices(1:100), :);
 displayData(sel);
 
 fprintf('Program paused. Press enter to continue.\n');
-pause;
 
 %% ============ Part 2a: Vectorize Logistic Regression ============
 %  In this part of the exercise, you will reuse your logistic regression
@@ -69,7 +68,6 @@ fprintf('Expected gradients:\n');
 fprintf(' 0.146561\n -0.548558\n 0.724722\n 1.398003\n');
 
 fprintf('Program paused. Press enter to continue.\n');
-pause;
 %% ============ Part 2b: One-vs-All Training ============
 fprintf('\nTraining One-vs-All Logistic Regression...\n')
 
